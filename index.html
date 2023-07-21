@@ -4,6 +4,13 @@
         <meta charset="utf-8">
 		<meta name="viewport" content="device-width, initial-scale=1">
 		<title>Test Website</title>
+	                if (bgElement) {
+                if (hour >= 6 && hour < 20) {
+                    bgElement.style.backgroundImage = "url('https://api.itzpeto.com/dexrn/day')";
+                } else {
+                    bgElement.style.backgroundImage = "url('https://api.itzpeto.com/dexrn/night')";
+                }
+            }
     </head>
     <body>
 		<h6>You can see this text? :0</h6>
